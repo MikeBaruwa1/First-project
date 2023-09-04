@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,56,0.7)); 
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 2px ridge aqua;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: aqua;
+    font-size: 25px;
+    padding-left: 20px;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 15px;
+}
+.menu{
+    width: 400px;
+    float: left;
+}
+.menu li{
+    display: inline-block;
+    justify-content: space-around;
+    margin: 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.search{
+    margin: 20px;
+}
+.search input{
+    background-color: transparent;
+    padding: 4px;
+    border-color: aqua;
+}
+.search button{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 4px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color: white;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.2px;
+    line-height: 15px;
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 9%;
+    letter-spacing: 2px;    
+}
+
+.content .call:hover{
+    background: white;
+    color: aqua;
+}
+.span{
+    color: aqua;
+    font-size: 50px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 870px;
+    top: -20px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 2px solid white;
+    padding: 8px;
+    margin: 2px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid aqua;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aqua;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.form input:focus{
+    outline: none;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: aqua;
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: aquamarine;
+}
+.form .link{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: white;
+}
